@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones</title>
+</head>
+<body>
+<h1>
+    Mobile Phones
+</h1>
+<p>
+    <img src="{{url_for('static', filename = 'slothphone.webp')}}" alt="slothphone" width="200" height="200" class="slothphone">
+    </p>
+    <div class="container">
+    <div class="product">
+        <img src="{{url_for('static', filename = 'iphone13promax.jpg')}}" alt="phones" width="200" height="150" class="iphone13">
+        <img src="{{url_for('static', filename = 'samsunggalaxys22ultra.webp')}}" alt="laptops" width="200" height="150" class="samsungs22">
+        <img src="{{url_for('static', filename = 'samsunggalaxyflip5g.jpg')}}" alt="tvs" width="200" height="150" class="samsungflip">
+
+    </div>
+    <div class="product">
+    <p>
+       iphone 13 pro max
+       multiple colors available
+       £450
+       condition: new
+    <p>
+      samsung s22 ultra
+      multiple colors available
+      £550
+      condition: new
+    </p>
+       samsung galaxy flip 5g
+       gold colour
+       £273
+       condition: refurbished
+    <p>       
+<p>
+    <br>
+    <br>
+    <br>
+    Contact @Alstech@hotmail.com if interested in any of these products
+</p>
+
+        
+    
+{% endblock %}
+</body>
+</html>

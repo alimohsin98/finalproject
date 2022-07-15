@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<body>
+    <h1>Alstech</h1>
+<p>
+<img src="{{url_for('static', filename = 'catwithpclogo.jpg')}}" alt="catwithpclogo" width="200" height="200" class="catwithpclogo">
+</p>
+<div class="container">
+<div class="product">
+    <img src="{{url_for('static', filename = 'samsungandiphone.jpg')}}" alt="phones" width="200" height="150" class="image1">
+    <img src="{{url_for('static', filename = 'laptops.jpg')}}" alt="laptops" width="200" height="150" class="image2">
+    <img src="{{url_for('static', filename = 'televisions.jpg')}}" alt="tvs" width="200" height="150" class="image3">
+    <img src="{{url_for('static', filename = 'consoles.webp')}}" alt="consoles" width="200" height="150" class="image4">
+
+</div>
+<div class="product">
+<p>
+    <a href="{{url_for('my_view.phones')}}">Mobile Phones</a>
+<p>
+    <a href="{{url_for('my_view.pcs')}}">PCs and Laptops</a>
+</p>
+    <a href="{{url_for('my_view.tvs')}}">Televisions</a>
+<p>
+    <a href="{{url_for('my_view.consoles')}}">Consoles</a>
+</p>
+
+</div>
+
+{% endblock %}
+</body>
+</html>

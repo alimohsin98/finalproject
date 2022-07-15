@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <h1>
+        About Alstech
+    </h1>
+<p>
+    <img src="{{url_for('static', filename = 'dogphonelogo.webp')}}" alt="doglogo" width="300" height="300" class="image5">
+</p>
+We are a small company that sells technology devices for a cheap affordable prices. 
+Our aim is to bring customers and families the essential technology they need for business, work, school or entertainment.
+<p>
+<p>
+    We update the website for different products so keep checking here for them.
+
+</p>
+
+    <img src="{{url_for('static', filename = 'laptopdog.webp')}}" alt="laptopdog" width="300" height="300" class="image6">
+</p>
+
+{% endblock %}
+</body>
+</html>

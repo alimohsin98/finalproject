@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVs</title>
+</head>
+<body>
+    <h1>
+        TVs
+    </h1>
+    <p>
+        <img src="{{url_for('static', filename = 'catwatchmovie.jpg')}}" alt="catwatchmovie" width="200" height="200" class="catwatchmovie">
+        </p>
+        <div class="container">
+        <div class="product">
+            <img src="{{url_for('static', filename = 'lgsmarttv.avif')}}" alt="phones" width="200" height="150" class="iphone13">
+            <img src="{{url_for('static', filename = 'samsungqe5.webp')}}" alt="laptops" width="200" height="150" class="samsungs22">
+    
+        </div>
+        <div class="product">
+        <p>
+           LG smart TV
+           £550
+           condition: new
+        <p>
+          samsung qe5 hd TV
+          £600
+          condition: new
+
+        <p>       
+    <p>
+        <br>
+        <br>
+        <br>
+        Contact @Alstech@hotmail.com if interested in any of these products
+
+{% endblock %}
+</body>
+</html>

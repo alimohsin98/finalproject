@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<title>PCs and Laptops</title>
+</head>
+<body>
+    <h1>
+        PCs and Laptops
+    </h1>
+    <p>
+        <img src="{{url_for('static', filename = 'pandalaptop.webp')}}" alt="pandalaptop" width="200" height="200" class="pandalaptop">
+        </p>
+        <div class="container">
+        <div class="product">
+            <img src="{{url_for('static', filename = 'hp15.jpg')}}" alt="phones" width="200" height="150" class="hp15">
+            <img src="{{url_for('static', filename = 'macbookpro14inch.jpg')}}" alt="macbookpro" width="200" height="150" class="macbookpro">
+            <img src="{{url_for('static', filename = 'delllatitude5430.jpg')}}" alt="tvs" width="200" height="150" class="delllatitude">
+    
+        </div>
+        <div class="product">
+        <p>
+           hp pavillion 15 gaming laptop
+           £650 
+           condition: new
+        <p>
+          macbook pro 14 inch
+          £750
+          condition: refurbished
+        </p>
+           dell latitude 5430
+           £915
+           condition: new
+        <p>       
+    <p>
+        <br>
+        <br>
+        <br>
+        Contact @Alstech@hotmail.com if interested in any of these products
+{% endblock %}
+</body>
+</html>
