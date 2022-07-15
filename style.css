@@ -1,0 +1,79 @@
+h1{text-align: center; color:white; font-size: xx-large; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+body{background-color:skyblue; text-align: 
+    center; text-transform: uppercase; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; font-size: large;}
+
+    .navbar {display: flex;
+        flex-direction: row;
+        min-height: 50px;
+        background-color: ghostwhite;
+        text-align: center;
+        justify-content: space-around;
+    border-radius: 50px;}
+
+.container{display: flex; flex-direction: column; border:skyblue}
+
+.product{display: flex; justify-content: space-evenly;}
+
+.catwithpclogo{display: block; margin-left: auto; margin-right: auto; border-radius: 50%;}
+
+.slothphone{border-radius: 50%;}
+
+.image1{border-radius: 50%; width: 150px; height: 150px;}
+
+.image2{border-radius: 50%; width: 150px; height: 150px;}
+
+.image3{border-radius: 50%; width: 150px; height: 150px;}
+
+.image4{border-radius: 50%; width: 150px; height: 150px;}
+
+.image5{border-radius: 50%;}
+
+.image6{border-radius: 50%;}
+
+.iphone13{border-radius: 50%; width: 150px; height: 150px;}
+
+.samsungs22{border-radius: 50%; width: 150px; height: 150px;}
+
+.samsungflip{border-radius: 50%; width: 150px; height: 150px;}
+
+.pandalaptop{border-radius: 50%;}
+
+.hp15{border-radius: 50%; width: 150px; height: 150px;}
+
+.macbookpro{border-radius: 50%; width: 150px; height: 150px;}
+
+.delllatitude{border-radius: 50%; width: 150px; height: 150px;}
+
+.catwatchmovie{border-radius: 50%;}
+
+.gamerpanda{border-radius: 50%;}
+
+.nintendo{border-radius: 50%; width: 150px; height: 150px;}
+
+.ps5{border-radius: 50%; width: 150px; height: 150px;}
+
+.xbox{border-radius: 50%; width: 150px; height: 150px;}
+
+.dark{background-color: darkblue; color: white;}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+        width: 600px;
+    }
+}
+
+
+
+
+
+ 
